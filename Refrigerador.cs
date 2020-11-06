@@ -2,12 +2,13 @@
 using System.Threading;
 namespace ElectromesticosG4
 {
-    class Refrigerador : IApagar,IEncender
+    class Refrigerador :LineaBlanca, IApagar,IEncender
     {
 
         public Refrigerador()
         {
-            Console.WriteLine("Hola, buen día");
+            Marca = " Samsung ";
+            Console.WriteLine("Hola, buen día te desea {0}",Marca);
         }
 
         public void Encender()

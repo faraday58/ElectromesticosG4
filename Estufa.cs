@@ -2,11 +2,12 @@
 using System.Threading;
 namespace ElectromesticosG4
 {
-    class Estufa : IApagar,IEncender
+    class Estufa : LineaBlanca, IApagar,IEncender
     {
         public Estufa()
         {
-            Console.WriteLine("Bienvenido, vamos a cocinar");
+            Marca = " Phillips";
+            Console.WriteLine("Bienvenido, vamos a cocinar {0}",Marca);
         }
 
         public void Apagar()

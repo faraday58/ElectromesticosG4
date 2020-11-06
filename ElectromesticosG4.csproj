@@ -39,6 +39,7 @@
     <Compile Include="Estufa.cs" />
     <Compile Include="IApagar.cs" />
     <Compile Include="IEncender.cs" />
+    <Compile Include="LineaBlanca.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Refrigerador.cs" />
